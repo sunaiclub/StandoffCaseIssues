@@ -1,0 +1,39 @@
+name: Frontend Bug
+title: "Название"
+labels: ["bug", "frontend"]
+assignees:
+  - FrameMuse
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что случилось?
+      description: Так же напишите, как должно быть и прикрипите скриншоты
+      placeholder: Такая вот проблема...
+      value: "Случился баг!"
+    validations:
+      required: true
+  - type: dropdown
+    id: devices
+    attributes:
+      label: На каком устройстве это произошло?
+      multiple: true
+      options:
+        - Desktop / Laptop
+        - Tablet
+        - Mobile
+      validations:
+        required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: В каком браузере это произошло?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+      validations:
+        required: true
+        
