@@ -1,5 +1,6 @@
 name: Frontend Bug
-title: "Название"
+description: Bug happend on frontend
+title: "Кратое название"
 labels: ["bug", "frontend"]
 assignees:
   - FrameMuse
